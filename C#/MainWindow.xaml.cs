@@ -27,7 +27,7 @@ namespace Beat_Saber_Version_Switcher
     {
         int MajorV = 1;
         int MinorV = 0;
-        int PatchV = 0;
+        int PatchV = 1;
         Boolean Preview = false;
 
         Boolean draggable = true;
@@ -362,6 +362,18 @@ namespace Beat_Saber_Version_Switcher
 
         private void unmodded(object sender, RoutedEventArgs e)
         {
+            if (File.Exists(exe + "\\Backups\\modded.apk"))
+            {
+                //Unmodded Beat Saber may be installed
+                MessageBoxResult result = MessageBox.Show("It looks like your last Action was installing unmodded Beat Saber. If you continue and have unmodded Beat Saber installed you must mod Beat Saber By hand.\nDo you wish to continue?", "Beat Saber Version Switcher modded apk found", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                switch (result)
+                {
+                    case MessageBoxResult.No:
+                        txtbox.AppendText("\n\nAborted.");
+                        txtbox.ScrollToEnd();
+                        return;
+                }
+            }
             //Install the unmodded Version of Beat Saber
             Application.Current.Dispatcher.Invoke(DispatcherPriority.Background, new Action(delegate {
                 txtbox.AppendText("\n\nBacking up everything.");
@@ -371,9 +383,10 @@ namespace Beat_Saber_Version_Switcher
             if (!adb("pull /sdcard/Android/data/com.beatgames.beatsaber/files \"" + exe + "\\Backups\"")) return;
             //Directory.Delete(exe + "\\Backups\\files\\mods", true);
             //Directory.Delete(exe + "\\Backups\\files\\libs", true);
+
             String moddedBS = adbS("shell pm path com.beatgames.beatsaber").Replace("package:", "").Replace(System.Environment.NewLine, "");
-            txtbox.AppendText("\n\n\n" + moddedBS + "\n\npull " + moddedBS + "\"" + exe + "\\Backups\"");
             if (!adb("pull " + moddedBS + " \"" + exe + "\\Backups\\modded.apk\"")) return;
+
             Application.Current.Dispatcher.Invoke(DispatcherPriority.Background, new Action(delegate {
                 txtbox.AppendText("\n\nInstalling unmodded Beat Saber.");
                 txtbox.ScrollToEnd();
