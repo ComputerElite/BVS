@@ -1,0 +1,15 @@
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\bin\Release\Beat Saber Version Switcher.exe.config
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\bin\Release\Beat Saber Version Switcher.exe
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\bin\Release\Beat Saber Version Switcher.pdb
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher.csprojAssemblyReference.cache
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\MainWindow.g.cs
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\App.g.cs
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher_MarkupCompile.cache
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher_MarkupCompile.lref
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\MainWindow.baml
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher.g.resources
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat_Saber_Version_Switcher.Properties.Resources.resources
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher.csproj.GenerateResource.cache
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher.exe
+D:\Visual Studio\Beat Saber Version Switcher\Beat Saber Version Switcher\obj\Release\Beat Saber Version Switcher.pdb
