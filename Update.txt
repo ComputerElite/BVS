@@ -1,4 +1,4 @@
-https://github.com/ComputerElite/BVS/releases/download/1.0/BVS.V.1.0.zip
+https://github.com/ComputerElite/BVS/releases/download/1.0.1/BVS.V.1.0.1.zip
 1
 0
 0
