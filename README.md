@@ -1,3 +1,5 @@
+# THIS TOOL DOES NOT RECIEVE UPDATES ATM PLEASE USE [BMBF MANAGER](https://github.com/ComputerElite/BM) instead
+
 # BVS
 A tool to automatically switch between the unmodded and modded version of Beat Saber
 # How-to
